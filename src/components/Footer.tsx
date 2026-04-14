@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Компания</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Компания</h3>
                 <a
                   href="#about"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
@@ -20,34 +20,48 @@ export default function Footer() {
                   href="#history"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  История
+                  Наша история
                 </a>
                 <a
-                  href="#contact"
+                  href="#science"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Контакты
+                  Наука
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Продукция</h3>
-                <a
-                  href="#skincare"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Уход за кожей
-                </a>
-                <a
-                  href="#anti-age"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Антивозрастное
-                </a>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Уход</h3>
                 <a
                   href="#sensitive"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Чувствительная кожа
+                </a>
+                <a
+                  href="#anti-age"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Антивозрастной уход
+                </a>
+                <a
+                  href="#sun"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Защита от солнца
+                </a>
+              </div>
+              <div className="flex flex-col gap-1 sm:gap-2">
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Контакты</h3>
+                <p className="text-white text-sm sm:text-base">
+                  Барселона, Испания
+                </p>
+                <a
+                  href="https://sensilis.ru"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  sensilis.ru
                 </a>
               </div>
             </div>
@@ -55,7 +69,7 @@ export default function Footer() {
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
                 SENSILIS
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Sensilis</p>
+              <p className="text-neutral-400 text-sm sm:text-base">© {new Date().getFullYear()} Sensilis · Sensitive Skin Lab</p>
             </div>
           </div>
         </div>

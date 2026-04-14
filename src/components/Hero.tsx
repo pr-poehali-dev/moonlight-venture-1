@@ -20,21 +20,25 @@ export default function Hero() {
       >
         <img
           src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          alt="Sensilis — забота о чувствительной коже"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
+      <div className="absolute inset-0 bg-black/30" />
+
       <div className="relative z-10 text-center text-white px-6">
-        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">С 1979 года · Барселона</p>
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-6 opacity-70 font-light">
+          Sensitive Skin Lab · С 1979 года · Барселона
+        </p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
           SENSILIS
         </h1>
-        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-90 font-light">
-          Мы понимаем вашу кожу. Более 40 лет науки — для красоты чувствительной кожи.
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 font-light leading-relaxed">
+          Более 40 лет мы создаём дерма-косметику для чувствительной и сенсибилизированной кожи. Научная честность, клинические исследования и сенсорный уход — в каждом продукте.
         </p>
         <button className="mt-10 border border-white text-white px-8 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
-          Узнать больше
+          Наша продукция
         </button>
       </div>
     </div>

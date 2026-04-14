@@ -19,18 +19,20 @@ export default function Promo() {
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
             src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            alt="Sensilis — научный подход"
             className="w-full h-full object-cover"
           />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
-        Дерма-косметика нового уровня
+      <div className="absolute inset-0 bg-black/20 z-[5]" />
+
+      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-[0.3em]">
+        Мы понимаем вашу кожу
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        «Sensibilis» — чувствительный. Мы создаём продукты, которые понимают вашу кожу и работают на её глубинное обновление.
+      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10 leading-snug">
+        Мы создаём всё более продвинутые формулы, добиваемся той сенсорности, которой заслуживает чувствительная кожа, и тщательно отбираем ингредиенты — лучшие для вас.
       </p>
     </div>
   );
