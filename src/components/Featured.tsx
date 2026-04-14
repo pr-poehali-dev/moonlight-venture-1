@@ -14,9 +14,9 @@ export default function Featured() {
           <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
             Наше имя происходит от латинского «Sensibilis» — чувствительный. С 1979 года мы работаем в фармацевтической лаборатории Барселоны, создавая передовые формулы для чувствительной кожи и коррекции возрастных изменений.
           </p>
-          <button className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest">
+          <a href="https://sensilis.ru/catalog" target="_blank" rel="noopener noreferrer" className="inline-block bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-widest">
             Узнать больше
-          </button>
+          </a>
         </div>
       </div>
 

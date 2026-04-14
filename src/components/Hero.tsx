@@ -37,9 +37,9 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 font-light leading-relaxed">
           Более 40 лет мы создаём дерма-косметику для чувствительной и сенсибилизированной кожи. Научная честность, клинические исследования и сенсорный уход — в каждом продукте.
         </p>
-        <button className="mt-10 border border-white text-white px-8 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+        <a href="https://sensilis.ru/catalog" target="_blank" rel="noopener noreferrer" className="inline-block mt-10 border border-white text-white px-8 py-3 text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
           Наша продукция
-        </button>
+        </a>
       </div>
     </div>
   );
