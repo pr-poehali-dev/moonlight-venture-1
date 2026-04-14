@@ -4,7 +4,7 @@ export default function Featured() {
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center min-h-screen px-6 py-12 lg:py-0">
         <div className="flex-1 h-[400px] lg:h-[800px] mb-8 lg:mb-0 lg:order-2">
           <img
-            src="/images/woman-horse.jpg"
+            src="https://cdn.poehali.dev/projects/3dd343d4-3b0e-4c85-9b73-9b9c6575cc71/files/d74a5b99-4f6b-405c-93c1-6fcb38759bd4.jpg"
             alt="Sensilis — красота и забота"
             className="w-full h-full object-cover"
           />

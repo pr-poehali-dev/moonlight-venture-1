@@ -19,7 +19,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
+          src="https://cdn.poehali.dev/projects/3dd343d4-3b0e-4c85-9b73-9b9c6575cc71/files/9364a4f7-5fb2-491f-b1d9-58786d2499bd.jpg"
           alt="Sensilis — забота о чувствительной коже"
           className="w-full h-full object-cover"
         />
